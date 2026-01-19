@@ -1,5 +1,5 @@
 import { ChatsModel } from "../models/ChatSchema.js";
-import { MessagesModel } from "../models/MessageSchema.js";
+import { MessagesModel } from "../models/messageSchema.js";
 
 export const SaveMessage = async (data) => {
   try {
