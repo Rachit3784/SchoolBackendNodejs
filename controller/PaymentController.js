@@ -1,9 +1,10 @@
 import { randomBytes } from "crypto";
 import { createRazorPayInstance } from "../config/RazorPayInstance.js";
-import { Razor_pay_secret_key } from "../config/ENV_variable.js";
+
 import { PaymentModel } from "../models/PaymentsSchema.js";
 import crypto from "crypto";
 import { Users } from "../models/UserSchema.js";
+import { Razor_pay_secret_key } from "../config/ENV_variable.js";
 const RazorPayInstance = createRazorPayInstance();
 
 export const CreatePaymentOrderId = async (req, res) => {

@@ -10,6 +10,7 @@ import { privateKey } from "../config/ENV_variable.js";
 
 
 
+
 const htmlTemplate = (otp) => `
 <!doctype html>
 <html lang="en">

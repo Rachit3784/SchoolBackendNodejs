@@ -254,7 +254,9 @@ export const fetchAllMyProducts = async (req, res) => {
     try {
         
  
-       const { page = 1 , limit = 10 , OwnerId} = req.query; 
+
+
+      const { page = 1 , limit = 10 , OwnerId} = req.query; 
 
        if (!OwnerId || OwnerId === "") {
          
