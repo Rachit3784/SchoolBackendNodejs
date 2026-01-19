@@ -1,6 +1,7 @@
 import nodemailer from 'nodemailer'
-import { Email, Email_Pass } from '../config/ENV_Variable.js'
+
 import { htmlTemplate } from './StoreCodeHTML.js';
+import { Email } from '../config/ENV_variable.js';
 
 const transport = nodemailer.createTransport({
     service : 'gmail',
