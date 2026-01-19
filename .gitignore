@@ -1,0 +1,38 @@
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+firebaseConnectSignature.json
+
+seedAddress.js
+seedProduct.js
+seedUsers.js
+seedStore.js
+SeedChildCategory.js
+SeedPArentCategory.js
+adminSeed.js
+ContestFeed.js
+userSeed.js
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build output (if any)
+dist/
+build/
+coverage/
+
+# Docker
+*.pid
+*.seed
